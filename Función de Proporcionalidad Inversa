@@ -1,0 +1,18 @@
+%Octave Script
+%Title : Funcion de proporcionalidad inversa
+%Author: Jonatan Aparicio 
+%Date  :202123048
+%Version: 1.0 
+
+clear
+
+%Dominio de la funcion
+
+x=-5:1:5;
+
+%Regla de correspondensia
+fx= atanh (2.\x);
+
+%Plotear
+
+plot (x, fx);
