@@ -8,10 +8,10 @@ clear
 
 %Dominio de la funcion
 
-x=-5:1:5;
+x=-50:1:50;
 
-%Regla de correspondensia
-fx= atanh (2.\x);
+%Regla de correspondencia
+fx= 1./x+2;
 
 %Plotear
 
